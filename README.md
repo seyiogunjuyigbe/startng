@@ -1,3 +1,4 @@
 # startng
-StartNG pre-internship projects
-All files and projects for the pre-internship
+StartNG pre-internship project. All projects and files
+Flutterwave post:
+Lucid Post

@@ -6,18 +6,14 @@ letter-spacing: 1.2px;
 
 }
 .header-text{
-	font-size: 0.9em;
+	font-size: 1em;
 	text-transform: uppercase;
 }
 
-h2,h3.header-text{
-	text-align: left;
-	color: steelblue;
-	/*font-family: 'Montserrat', sans-serif;*/
 
-}
-h2{
-		margin-top: 2%;
+h2.header-text{
+	letter-spacing: 0.9px;
+	color: steelblue;	margin-top: 2%;
 		text-align: center;
 }
 div.head{
@@ -32,7 +28,11 @@ div.head{
 	border: 0.2px solid #f3f3f3;
 	padding: 20px;
 }
-
+#language-section ul li{
+	float: left;
+	padding: 5px;
+	list-style-type: none;
+}
 a{
 	text-decoration: none;
 	color: steelblue;

@@ -32,11 +32,7 @@ div.head{
 	border: 0.2px solid #f3f3f3;
 	padding: 20px;
 }
-#language-section ul li{
-	float: left;
-	padding: 5px;
-	list-style-type: none;
-}
+
 a{
 	text-decoration: none;
 	color: steelblue;

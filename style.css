@@ -1,0 +1,159 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	background-color: steelblue;
+	font-family: candara;
+	/*margin-left: 2%;*/
+}
+h1{
+text-transform: uppercase;
+letter-spacing: 1.2px;
+
+}
+#nav-list{
+float: left;
+list-style-type: none;
+text-align: center;
+display: flex;
+/*margin: auto;*/
+}
+#nav-list li{
+	float: left;
+	padding: 10px;
+}
+.header-text{
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+
+#name{
+	font-size: 3em;
+	font-weight: bold;
+}
+
+#heading{
+display: grid;
+text-align: center;
+
+}
+h2.header-text{
+	letter-spacing: 0.9px;
+	color: #fff;
+	margin-top: 2%;
+	text-align: center;
+}
+div.head{
+	/*width: 40%;*/
+	margin-top: 4%;
+}
+.section{
+	margin-left: 3%;
+	display: grid;
+}
+#experience-section .section, #education-section .section, #project-section{
+	display: grid;
+	width: 80%;
+}
+#experience-section .section div, #education-section .section div{
+	border: 0.2px solid #f3f3f3;
+	padding: 20px;
+}
+#language-section ul li{
+	float: left;
+	padding: 5px;
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+small{
+	color: #a3a3a3;
+	text-align: center;
+}
+img{
+	border-radius: 5px;
+	float: left;
+	margin-left: 3%;
+
+}
+hr{
+width: 100%;
+	height: 2px;
+	/*margin-left: 0;*/
+	/*height: 1px;*/
+	border: 0;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0))
+
+}
+
+aside a{
+	padding: 4px;
+}
+aside a:hover{
+	border: 1px solid #f3f3f3;
+	background-color: steelblue;
+	border-radius: 4px;
+	color: white;
+	padding: 5px;
+}
+#formDiv{
+	margin-top: 20px auto;
+	width: 50%;
+
+}
+form{
+	margin: auto;
+	width: 100%;
+}
+form input, textarea{
+	width: 50%;
+	display: grid;	
+
+	border-radius: 5px;
+	border: 1px solid steelblue;
+}
+input{
+height: 2em;
+padding: 3px;
+}
+input[type="submit"]{
+	padding: 10px;
+	height: 3em;
+	cursor: pointer;
+	width: 10em;
+	margin-top: 5px;
+}
+#btn{
+	cursor: pointer;
+	width: 10em;
+	border: 1px solid #f3f3f3;
+	border-radius: 5px;
+	height: 3em;
+	float: right;
+	background-color: steelblue;
+	font-weight: bold;
+
+}
+#btn:hover{
+	background-color: #fff;
+	transition: 0.2s ease-out;
+	border: 2px solid steelblue;
+
+}
+a:hover{
+	color: #000;
+}
+input[type="submit"]:hover{
+	background-color: steelblue;
+	border: 2px solid #fff;
+}
+input::placeholder{
+	font-style: italic;
+	padding: 2px;
+}
+#heading a{
+color: #000;
+}

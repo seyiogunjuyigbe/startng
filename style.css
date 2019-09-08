@@ -1,17 +1,8 @@
-
-
-h1{
-text-transform: uppercase;
-/*font-family: 'Montserrat', sans-serif;*/
-letter-spacing: 1.2px;
-
-}
-
 html{
 	scroll-behavior: smooth;
 }
 body{
-	background-color: steelblue;
+	/*background-color: steelblue;*/
 	font-family: candara;
 	/*margin-left: 2%;*/
 }
@@ -31,23 +22,12 @@ display: flex;
 	float: left;
 	padding: 10px;
 }
-
 .header-text{
 	font-size: 1em;
 	text-transform: uppercase;
 }
 
 
-
-h2.header-text{
-	letter-spacing: 0.9px;
-	color: steelblue;	margin-top: 2%;
-		text-align: center;
-}
-div.head{
-	width: 40%;
-	margin-top: 4%;
-}
 #name{
 	font-size: 3em;
 	font-weight: bold;
@@ -60,7 +40,7 @@ text-align: center;
 }
 h2.header-text{
 	letter-spacing: 0.9px;
-	color: #fff;
+	color: steelblue;
 	margin-top: 2%;
 	text-align: center;
 }
@@ -72,8 +52,7 @@ div.head{
 	margin-left: 3%;
 	display: grid;
 }
-
-#experience-section .section, #education-section .section, #project-section{
+#experience-section .section, #education-section .section{
 	display: grid;
 	width: 80%;
 }
@@ -88,28 +67,7 @@ div.head{
 }
 a{
 	text-decoration: none;
-
 	color: steelblue;
-}
-small{
-	color: #a3a3a3;
-}
-body{
-/*font-family: 'Open Sans', sans-serif;*/
-font-family: candara;
-margin-left: 2%;
-}
-img{
-	border-radius: 5px;
-}
-hr{
-
-	margin-left: 0;
-	height: 1px;
-	border: 0;
-background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0))
-
-	color: #fff;
 }
 small{
 	color: #a3a3a3;
@@ -138,9 +96,8 @@ aside a:hover{
 	border: 1px solid #f3f3f3;
 	background-color: steelblue;
 	border-radius: 4px;
-	color: white;
+	color: #000;
 	padding: 5px;
-
 }
 #formDiv{
 	margin-top: 20px auto;
